@@ -1,5 +1,5 @@
 // import './App.css';
-import Header from "./Header"
+import Header from "./views/Header"
 import { LoginView } from "./views/LoginView";
 import { Home } from "./views/Home";
 import { ContentDetails } from "./components/contentDetails.jsx";
