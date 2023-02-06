@@ -79,9 +79,8 @@ export const ContentDetails = () => {
                   <li key={id} className="card">
                     <a target="_blank" href={`https://www.youtube.com/watch?v=${resourceId.videoId}`}>
                       <h3>{title}</h3>
-                    <img width={medium && medium.width ? medium.width : ''} height={medium && medium.height ? medium.height : ''} src={medium && medium.url ? medium.url : ''} alt="" />
+                      <img width={medium && medium.width ? medium.width : ''} height={medium && medium.height ? medium.height : ''} src={medium && medium.url ? medium.url : ''} alt="" />
                     </a>
-
                   </li>
                 )
               })
@@ -89,11 +88,8 @@ export const ContentDetails = () => {
           </ul>
           :
           <h1>No hay videos. Problemas en la carga</h1>
-        }
-        
+        }    
       </>
-
     </div>
-    
   </section>
 )}

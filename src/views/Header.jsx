@@ -1,8 +1,8 @@
 
-import "./header/header.css";
+import "../header.css";
 import { useState, useEffect } from 'react';
 import { useHistory  } from "react-router-dom";
-import "./styles.css"
+import "../styles.css"
 
 export default function Header() {
 

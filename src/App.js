@@ -10,18 +10,18 @@ import "./styles.css"
 function App() {
   return (
     <Router>
-			<div className="App">
-				<Header/>
-        {/* <LoginView/> */}
-				<Switch >
-					<Route exact path="/" component={LoginView} />
-					<Route exact path='/ingreso' component={LoginView} />
-					<Route exact path="/categories" component={Home} />
-          <Route path="/categories/:categoryId" component={ContentDetails} />
-					<Route component={Error404View} />
-				</Switch >
-			</div>
-    	</Router>
+		<div className="App">
+			<Header/>
+			{/* <LoginView/> */}
+			<Switch >
+				<Route exact path="/" component={LoginView} />
+				<Route exact path='/ingreso' component={LoginView} />
+				<Route exact path="/categories" component={Home} />
+				<Route path="/categories/:categoryId" component={ContentDetails} />
+				<Route component={Error404View} />
+			</Switch >
+		</div>
+	</Router>
   );
 }
 
